@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio Anderson L. A.</title>
+    <link 
+        rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" 
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" 
+        crossorigin="anonymous" 
+        referrerpolicy="no-referrer" 
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/header.css">
+    <link rel="stylesheet" href="/assets/css/acordeon.css">
+    <link rel="stylesheet" href="/assets/css/languages.css">
+    <link rel="stylesheet" href="/assets/css/portifolio.css">
+    <link rel="stylesheet" href="/assets/css/experience.css">
+    <link rel="stylesheet" href="/assets/css/skills.css">
+
+</head>
+<body>
+    <main class="main">
+
+        <header class="header">
+
+            <img src="assets/images/pp.jpg" alt="Foto do Anderson Lima Araújo" class="photo">
+    
+            <h1 class="title">Olá, <br>eu sou Anderson Lima Araújo</h1>
+    
+            <div class="informations">
+                <p class="job">Desenvolvedor Full-Stack</p>
+                <p class="local">Belo Horizonte - MG</p>
+                <p class="wa">
+                    <a href="tel:(31) 99154-4220">(31) 99154-4220</a>
+                </p>
+                <p class="email">
+                    <a href="mailto:anderson.bhbr@gmail.com">anderson.bhbr@gmail.com</a>
+                </p>
+            </div>
+    
+        </header>
+
+        <section class="acordeon open">
+            <button class="trigger" type="button">
+                    <h2>Skills</h2>             
+            </button>   
+            <div class="content">
+                <div class="skills">
+                    <section class="tools">
+                        <h3>Ferramentas:</h3>
+                        <ul>
+                            <li>
+                                <img src="/assets/icones/language/html.svg" alt="html" title="html">
+                                <img src="/assets/icones/language/css.svg" alt="css" title="css">
+                                <img src="/assets/icones/language/js.svg" alt="javascript" title="javascript">
+                                <img src="/assets/icones/language/php.svg" alt="php" title="php">                               
+                            </li>
+                        </ul>
+                    </section>
+    
+                    <section class="personal">
+                        <h3>Pessoal:</h3>
+                        <ul>
+                            <li>Liderança</li>
+                            <li>Facilidade de Comunicação</li>
+                            <li>Organização</li>
+                            <li>Trabalho em Equipe</li>
+                            <li>Flexibilidade</li>
+                        </ul>
+                    </section>
+                </div>
+
+            </div>             
+        </section>
+
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                    <h2>Idiomas</h2>             
+            </button>   
+            <div class="content">
+                <ul class="languages">
+                    <li>Português</li>
+                    <li>Inglês</li>              
+                </ul>
+            </div>             
+        </section>
+
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                    <h2>Portifólio</h2>           
+            </button>   
+            <div class="content">
+                <ul class="portifolio">
+                    <li>
+                        <h3 class="title github">Clone da Página do HBO Max com Responsividade e Animação</h3>
+                        <a href="https://github.com/AndersonBHBR/hbo-max-clone" target="_blank">https://github.com/AndersonBHBR/hbo-max-clone</a>
+                    </li>
+                    <li>
+                        <h3 class="title github"> Site do Coffee Shop Bootstrap</h3>
+                        <a href="https://github.com/AndersonBHBR/coffee-shop-bootstrap" target="_blank">https://github.com/AndersonBHBR/coffee-shop-bootstrap</a>
+                    </li>
+                    <li>
+                        <h3 class="title github">Gerenciador de Produtos</h3>
+                        <a href="https://github.com/AndersonBHBR/gerenciador-de-produtos" target="_blank">https://github.com/AndersonBHBR/gerenciador-de-produtos</a>
+                    </li>
+                </ul>
+            </div>             
+        </section>
+        
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                    <h2>Experiência Profissional</h2>           
+            </button>   
+            <div class="content">
+                <ul class="experience">
+                    <li>
+                        <h3 class="title">Belfar Ltda</h3>
+                        <p class="period">10/2021 - 01/2022</p>
+                        <p>
+                            Desenvolvimento Full-Stack Front-End em Angularjs, 
+                            Jquery, HTML5, CSS3 e Javascript 
+                            Back-End em PHP e .Net C# Entity Framework Correção 
+                            e desenvolvimento de novas funcionalidades em sistemas WEB.
+                        </p>
+                    </li>
+                    <li>
+                        <h3 class="title">MAXMED</h3>
+                        <p class="period">01/2019 - 04/2019</p>
+                        <p>
+                            Trabalho principal com programação PHP e Banco de Dados no sistema online MEDVIDA. 
+                            Trabalhos secundários com suporte ao usuário, incluindo o suporte ao sistema SIGMO da Vitatech.
+                        </p>
+                    </li>
+                </ul>
+            </div>             
+        </section>
+
+    </main>
+    <script src="/assets/js/acordeon.js"></script>
+</body>
+</html>
